@@ -1,0 +1,44 @@
+@media only screen and (max-width: 500px){
+    .cont{
+        display: flex;
+         flex-direction: column;
+         
+    }
+    .main{
+        flex-grow: 1;
+        order: -1;
+    }
+     h1{
+        font-size: 42px;
+     }
+    
+    
+}
+@media only screen and (min-width:500px){
+ body{
+    background-color: rgb(231, 133, 133);
+ }
+}
+.cont{
+    display: flex;
+    
+
+}
+.main{
+    flex-grow: 2;
+    
+}
+p{
+    width: 20%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 5px;
+}
+.img{
+    width: 50%;
+    
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
